@@ -1,0 +1,72 @@
+* {
+    text-align: center;
+    font-family: 'Aboreto', cursive;
+    background-color: rgb(255, 255, 255);
+}
+@keyframes bounceIn {
+    0% {
+        transform: scaleX(0.5);
+        opacity: 0;
+    }
+    60% {
+        transform: scaleX(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scaleX(0.8);
+    }
+}
+h1 {
+    color: rgb(103, 28, 28);
+    animation: bounceIn 4s infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+h2 {
+    background:transparent;
+    border-bottom: 2px solid greenyellow;
+    margin:auto;
+    width: 20px;
+    height: 5px;
+    
+}
+.headers {
+    border: 5px dotted yellow
+}
+body {
+    font-weight: bolder;
+    background-image: url(https://live.staticflickr.com/6088/6159939826_5e672e6462_b.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.rules-title {
+    border-right: 7px solid black;
+}
+.game-rules {
+    border: 5px solid greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#treasure-hunt-table {
+   border: 7px dashed pink;
+}
+button:hover {
+    color: purple;
+}
+
+table {
+    margin: auto;
+}
+
+ul {
+    list-style-type: ""
+}
+
+td {
+    padding: 15px;
+}
