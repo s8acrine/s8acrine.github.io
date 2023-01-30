@@ -23,13 +23,7 @@ h1 {
     animation-timing-function: ease-in-out;
 }
 
-h2 {
-    background:transparent;
-    border-bottom: 2px solid greenyellow;
-    margin:auto;
-    width: 20px;
-    height: 5px;
-    
+
 }
 .headers {
     border: 5px dotted yellow
